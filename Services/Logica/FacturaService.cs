@@ -6,28 +6,34 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace Services.Logica
 {
+
     public class FacturaService
     {
         private readonly FacturaRepository _facturaRepository;
-        private ContextoAplicacionDB context;
 
-        public FacturaService(FacturaRepository facturaRepository)
+        public FacturaService(Repository.Context.ContextoAplicacionDB context)
         {
-            _facturaRepository = facturaRepository;
+            _facturaRepository = new FacturaRepository(context);
         }
-
-        public FacturaService(ContextoAplicacionDB context)
+        public async Task<IEnumerable<FacturaModel>> ListarAsync()
         {
-            this.context = context;
+            try
+            {
+                return await _facturaRepository.ListarAsync();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
 
         public async Task<bool> AgregarAsync(FacturaModel modelo)
         {
-            if (ValidarFactura(modelo))
+            if (ValidacionFactura(modelo))
             {
-                CalcularTotales(modelo);
                 return await _facturaRepository.AgregarAsync(modelo);
             }
             else
@@ -35,12 +41,11 @@ namespace Services.Logica
                 return false;
             }
         }
-
+        
         public async Task<bool> ModificarAsync(FacturaModel modelo)
         {
-            if (ValidarFactura(modelo))
+            if (ValidacionFactura(modelo))
             {
-                CalcularTotales(modelo);
                 return await _facturaRepository.ModificarAsync(modelo);
             }
             else
@@ -48,7 +53,7 @@ namespace Services.Logica
                 return false;
             }
         }
-
+        
         public async Task<bool> EliminarAsync(int id)
         {
             return await _facturaRepository.EliminarAsync(id);
@@ -66,21 +71,19 @@ namespace Services.Logica
             }
         }
 
-        public async Task<IEnumerable<FacturaModel>> ListarAsync()
+        private bool ValidacionFactura(FacturaModel factura)
         {
-            return await _facturaRepository.ListarAsync();
-        }
-
-        private bool ValidarFactura(FacturaModel factura)
-        {
-            // Implementa la lógica de validación aquí
+            if (factura == null || string.IsNullOrEmpty(factura.nro_factura))
+            {
+                return false;
+            }
             return true;
         }
-
+        /*
         private void CalcularTotales(FacturaModel factura)
         {
             factura.total_iva = factura.total_iva5 + factura.total_iva10;
             factura.total = (int)((factura.total_iva5 / 0.05m) + (factura.total_iva10 / 0.1m)) + factura.total_iva; // Utiliza tipos decimales para los cálculos
-        }
+        }*/
     }
 }

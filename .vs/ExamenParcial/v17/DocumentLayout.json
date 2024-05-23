@@ -1,101 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\angel\\Downloads\\ep1_acosta_Optativo_V-main\\ep1_acosta_Optativo_V-main\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{D6BBB4A1-1DB7-475D-9CA8-F35CCA9194BE}|Services\\Services.csproj|c:\\users\\angel\\downloads\\ep1_acosta_optativo_v-main\\ep1_acosta_optativo_v-main\\services\\logica\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6BBB4A1-1DB7-475D-9CA8-F35CCA9194BE}|Services\\Services.csproj|solutionrelative:services\\logica\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{528DABBD-6164-4712-B208-45538F8801EB}|ExamenParcial\\ExamenParcial.csproj|c:\\users\\angel\\downloads\\ep1_acosta_optativo_v-main\\ep1_acosta_optativo_v-main\\examenparcial\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{528DABBD-6164-4712-B208-45538F8801EB}|ExamenParcial\\ExamenParcial.csproj|solutionrelative:examenparcial\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3102E98F-1D50-4A79-97B5-FF59629E5A27}|Repository\\Repository.csproj|c:\\users\\angel\\downloads\\ep1_acosta_optativo_v-main\\ep1_acosta_optativo_v-main\\repository\\data\\icliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3102E98F-1D50-4A79-97B5-FF59629E5A27}|Repository\\Repository.csproj|solutionrelative:repository\\data\\icliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3102E98F-1D50-4A79-97B5-FF59629E5A27}|Repository\\Repository.csproj|c:\\users\\angel\\downloads\\ep1_acosta_optativo_v-main\\ep1_acosta_optativo_v-main\\repository\\data\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3102E98F-1D50-4A79-97B5-FF59629E5A27}|Repository\\Repository.csproj|solutionrelative:repository\\data\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{528DABBD-6164-4712-B208-45538F8801EB}|ExamenParcial\\ExamenParcial.csproj|c:\\users\\angel\\downloads\\ep1_acosta_optativo_v-main\\ep1_acosta_optativo_v-main\\examenparcial\\controllers\\facturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{528DABBD-6164-4712-B208-45538F8801EB}|ExamenParcial\\ExamenParcial.csproj|solutionrelative:examenparcial\\controllers\\facturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Users\\angel\\Downloads\\ep2_acosta_Optativo_V\\ep2_acosta_Optativo_V\\ep2_acosta_Optativo_V\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 2,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ClienteRepository.cs",
-              "DocumentMoniker": "C:\\Users\\angel\\Downloads\\ep1_acosta_Optativo_V-main\\ep1_acosta_Optativo_V-main\\Repository\\Data\\ClienteRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\Data\\ClienteRepository.cs",
-              "ToolTip": "C:\\Users\\angel\\Downloads\\ep1_acosta_Optativo_V-main\\ep1_acosta_Optativo_V-main\\Repository\\Data\\ClienteRepository.cs",
-              "RelativeToolTip": "Repository\\Data\\ClienteRepository.cs",
-              "ViewState": "AQIAAD0AAAAAAAAAAAA0wAoAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T03:35:54.196Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ICliente.cs",
-              "DocumentMoniker": "C:\\Users\\angel\\Downloads\\ep1_acosta_Optativo_V-main\\ep1_acosta_Optativo_V-main\\Repository\\Data\\ICliente.cs",
-              "RelativeDocumentMoniker": "Repository\\Data\\ICliente.cs",
-              "ToolTip": "C:\\Users\\angel\\Downloads\\ep1_acosta_Optativo_V-main\\ep1_acosta_Optativo_V-main\\Repository\\Data\\ICliente.cs",
-              "RelativeToolTip": "Repository\\Data\\ICliente.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T03:34:44.235Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ClienteService.cs",
-              "DocumentMoniker": "C:\\Users\\angel\\Downloads\\ep1_acosta_Optativo_V-main\\ep1_acosta_Optativo_V-main\\Services\\Logica\\ClienteService.cs",
-              "RelativeDocumentMoniker": "Services\\Logica\\ClienteService.cs",
-              "ToolTip": "C:\\Users\\angel\\Downloads\\ep1_acosta_Optativo_V-main\\ep1_acosta_Optativo_V-main\\Services\\Logica\\ClienteService.cs",
-              "RelativeToolTip": "Services\\Logica\\ClienteService.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAowBgAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T03:32:27.555Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FacturaController.cs",
-              "DocumentMoniker": "C:\\Users\\angel\\Downloads\\ep1_acosta_Optativo_V-main\\ep1_acosta_Optativo_V-main\\ExamenParcial\\Controllers\\FacturaController.cs",
-              "RelativeDocumentMoniker": "ExamenParcial\\Controllers\\FacturaController.cs",
-              "ToolTip": "C:\\Users\\angel\\Downloads\\ep1_acosta_Optativo_V-main\\ep1_acosta_Optativo_V-main\\ExamenParcial\\Controllers\\FacturaController.cs",
-              "RelativeToolTip": "ExamenParcial\\Controllers\\FacturaController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T03:30:41.471Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ClienteController.cs",
-              "DocumentMoniker": "C:\\Users\\angel\\Downloads\\ep1_acosta_Optativo_V-main\\ep1_acosta_Optativo_V-main\\ExamenParcial\\Controllers\\ClienteController.cs",
-              "RelativeDocumentMoniker": "ExamenParcial\\Controllers\\ClienteController.cs",
-              "ToolTip": "C:\\Users\\angel\\Downloads\\ep1_acosta_Optativo_V-main\\ep1_acosta_Optativo_V-main\\ExamenParcial\\Controllers\\ClienteController.cs",
-              "RelativeToolTip": "ExamenParcial\\Controllers\\ClienteController.cs",
-              "ViewState": "AQIAAD0AAAAAAAAAAAAcwEsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T03:29:33.11Z"
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

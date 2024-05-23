@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\angel\\Downloads\\ep1_acosta_Optativo_V-main\\ep1_acosta_Optativo_V-main\\Repository\\Repository.csproj": {}
+    "C:\\Users\\angel\\Downloads\\ep2_acosta_Optativo_V\\ep2_acosta_Optativo_V\\ep2_acosta_Optativo_V\\Repository\\Repository.csproj": {}
   },
   "projects": {
-    "C:\\Users\\angel\\Downloads\\ep1_acosta_Optativo_V-main\\ep1_acosta_Optativo_V-main\\Repository\\Repository.csproj": {
+    "C:\\Users\\angel\\Downloads\\ep2_acosta_Optativo_V\\ep2_acosta_Optativo_V\\ep2_acosta_Optativo_V\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\angel\\Downloads\\ep1_acosta_Optativo_V-main\\ep1_acosta_Optativo_V-main\\Repository\\Repository.csproj",
+        "projectUniqueName": "C:\\Users\\angel\\Downloads\\ep2_acosta_Optativo_V\\ep2_acosta_Optativo_V\\ep2_acosta_Optativo_V\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "C:\\Users\\angel\\Downloads\\ep1_acosta_Optativo_V-main\\ep1_acosta_Optativo_V-main\\Repository\\Repository.csproj",
+        "projectPath": "C:\\Users\\angel\\Downloads\\ep2_acosta_Optativo_V\\ep2_acosta_Optativo_V\\ep2_acosta_Optativo_V\\Repository\\Repository.csproj",
         "packagesPath": "C:\\Users\\angel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\angel\\Downloads\\ep1_acosta_Optativo_V-main\\ep1_acosta_Optativo_V-main\\Repository\\obj\\",
+        "outputPath": "C:\\Users\\angel\\Downloads\\ep2_acosta_Optativo_V\\ep2_acosta_Optativo_V\\ep2_acosta_Optativo_V\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

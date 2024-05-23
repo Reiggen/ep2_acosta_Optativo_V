@@ -18,66 +18,6 @@ namespace api.personas.Controllers
             facturaService = new FacturaService(context);
         }
 
-        // POST
-        [HttpPost("Agregar Factura")]
-        public async Task<ActionResult> AgregarAsync(FacturaModel factura)
-        {
-            if (ModelState.IsValid)
-            {
-                await facturaService.AgregarAsync(factura);
-                return View();
-            }
-            else
-            {
-                return BadRequest(ModelState);
-            }
-        }
-
-        // GET
-        [HttpGet("Consultar Factura/{id}")]
-        public async Task<ActionResult> ConsultarAsync(int id)
-        {
-            var factura = await facturaService.ConsultarAsync(id);
-            if (factura == null)
-            {
-                return NotFound();
-            }
-            return Ok(factura);
-        }
-
-        // PUT
-        [HttpPut("Modificar Factura/{id}")]
-        public async Task<ActionResult> ModificarAsync(int id, FacturaModel factura)
-        {
-            if (id != factura.id)
-            {
-                return BadRequest();
-            }
-            if (ModelState.IsValid)
-            {
-                await facturaService.ModificarAsync(factura);
-                return NoContent();
-            }
-            else
-            {
-                return BadRequest(ModelState);
-            }
-        }
-
-        // DELETE
-        [HttpDelete("Eliminar Factura/{id}")]
-        public async Task<ActionResult> EliminarAsync(int id)
-        {
-            var factura = await facturaService.ConsultarAsync(id);
-            if (factura == null)
-            {
-                return NotFound();
-            }
-            await facturaService.EliminarAsync(id);
-            return NoContent();
-        }
-
-        // LIST
         [HttpGet("Listar Facturas")]
         public async Task<ActionResult> ListarAsync()
         {
@@ -90,6 +30,56 @@ namespace api.personas.Controllers
             {
                 return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
             }
+        }
+
+        [HttpGet("Consultar Factura/{id}")]
+        public async Task<ActionResult> ConsultarAsync(int id)
+        {
+            var factura = await facturaService.ConsultarAsync(id);
+            if (factura == null)
+            {
+                return NotFound();
+            }
+            return Ok(factura);
+        }
+
+        [HttpPost("Agregar Factura")]
+        public async Task<ActionResult> AgregarAsync(FacturaModel factura)
+        {
+            await facturaService.AgregarAsync(factura);
+            return View();/*
+            if (ModelState.IsValid)
+            {
+                await facturaService.AgregarAsync(factura);
+                return View();
+            }
+            else
+            {
+                return BadRequest(ModelState);
+            }*/
+        }
+
+        [HttpPut("Modificar factura")]
+        public async Task<ActionResult> ModificarAsync(int id, FacturaModel factura)
+        {
+            if (id != factura.id)
+            {
+                return BadRequest();
+            }
+            await facturaService.ModificarAsync(factura);
+            return NoContent();
+        }
+
+        [HttpDelete("Eliminar Factura/{id}")]
+        public async Task<ActionResult> EliminarAsync(int id)
+        {
+            var factura = await facturaService.ConsultarAsync(id);
+            if (factura == null)
+            {
+                return NotFound();
+            }
+            await facturaService.EliminarAsync(id);
+            return NoContent();
         }
     }
 }

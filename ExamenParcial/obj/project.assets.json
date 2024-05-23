@@ -2751,6 +2751,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Dapper >= 2.1.35",
+      "Microsoft.EntityFrameworkCore >= 8.0.5",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.5",
       "Npgsql >= 8.0.3",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 8.0.4",
@@ -2765,11 +2766,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\angel\\Downloads\\ep1_acosta_Optativo_V-main\\ep1_acosta_Optativo_V-main\\ExamenParcial\\ExamenParcial.csproj",
+      "projectUniqueName": "C:\\Users\\angel\\Downloads\\ep2_acosta_Optativo_V\\ep2_acosta_Optativo_V\\ep2_acosta_Optativo_V\\ExamenParcial\\ExamenParcial.csproj",
       "projectName": "ExamenParcial",
-      "projectPath": "C:\\Users\\angel\\Downloads\\ep1_acosta_Optativo_V-main\\ep1_acosta_Optativo_V-main\\ExamenParcial\\ExamenParcial.csproj",
+      "projectPath": "C:\\Users\\angel\\Downloads\\ep2_acosta_Optativo_V\\ep2_acosta_Optativo_V\\ep2_acosta_Optativo_V\\ExamenParcial\\ExamenParcial.csproj",
       "packagesPath": "C:\\Users\\angel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\angel\\Downloads\\ep1_acosta_Optativo_V-main\\ep1_acosta_Optativo_V-main\\ExamenParcial\\obj\\",
+      "outputPath": "C:\\Users\\angel\\Downloads\\ep2_acosta_Optativo_V\\ep2_acosta_Optativo_V\\ep2_acosta_Optativo_V\\ExamenParcial\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2791,8 +2792,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\angel\\Downloads\\ep1_acosta_Optativo_V-main\\ep1_acosta_Optativo_V-main\\Services\\Services.csproj": {
-              "projectPath": "C:\\Users\\angel\\Downloads\\ep1_acosta_Optativo_V-main\\ep1_acosta_Optativo_V-main\\Services\\Services.csproj"
+            "C:\\Users\\angel\\Downloads\\ep2_acosta_Optativo_V\\ep2_acosta_Optativo_V\\ep2_acosta_Optativo_V\\Services\\Services.csproj": {
+              "projectPath": "C:\\Users\\angel\\Downloads\\ep2_acosta_Optativo_V\\ep2_acosta_Optativo_V\\ep2_acosta_Optativo_V\\Services\\Services.csproj"
             }
           }
         }
@@ -2815,6 +2816,10 @@
           "Dapper": {
             "target": "Package",
             "version": "[2.1.35, )"
+          },
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[8.0.5, )"
           },
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

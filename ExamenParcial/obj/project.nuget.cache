@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "q+9xhwCz4SA=",
+  "dgSpecHash": "1npd4KCeils=",
   "success": true,
-  "projectFilePath": "C:\\Users\\angel\\Downloads\\ep1_acosta_Optativo_V-main\\ep1_acosta_Optativo_V-main\\ExamenParcial\\ExamenParcial.csproj",
+  "projectFilePath": "C:\\Users\\angel\\Downloads\\ep2_acosta_Optativo_V\\ep2_acosta_Optativo_V\\ep2_acosta_Optativo_V\\ExamenParcial\\ExamenParcial.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\angel\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
     "C:\\Users\\angel\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

@@ -27,6 +27,7 @@ namespace Services.Logica
             }
         }
 
+
         public async Task<ClienteModel> ConsultarAsync(int id)
         {
             return await _clienteRepository.ConsultarAsync(id);
@@ -70,7 +71,7 @@ namespace Services.Logica
 
         private bool ValidacionCliente(ClienteModel cliente)
         {
-            if (cliente == null || string.IsNullOrEmpty(cliente.Nombre))
+            if (cliente == null || string.IsNullOrEmpty(cliente.nombre))
             {
                 return false;
             }

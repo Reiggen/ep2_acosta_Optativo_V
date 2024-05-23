@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Configuration;
+using Microsoft.AspNetCore.Http;
 using Repository.Data;
 using Services.Logica;
 using System;
@@ -8,9 +8,10 @@ using System.Threading.Tasks;
 
 namespace ExamenParcial.Controllers
 {
+    //
     public class ClienteController : Controller
     {
-        private ClienteService _clienteService;
+        private readonly ClienteService _clienteService;
 
         public ClienteController(Repository.Context.ContextoAplicacionDB context)
         {
@@ -31,7 +32,7 @@ namespace ExamenParcial.Controllers
             }
         }
 
-        [HttpGet("Modificar/{id}")]
+        [HttpGet("Consultar/{id}")]
         public async Task<ActionResult<ClienteModel>> ConsultarAsync(int id)
         {
             var cliente = await _clienteService.ConsultarAsync(id);
@@ -49,10 +50,10 @@ namespace ExamenParcial.Controllers
             return Ok();
         }
 
-        [HttpPut("Modificar/{id}")]
+        [HttpPut("Modificar")]
         public async Task<ActionResult> ModificarAsync(int id, ClienteModel cliente)
         {
-            if (id != cliente.Id)
+            if (id != cliente.id)
             {
                 return BadRequest();
             }
@@ -73,3 +74,4 @@ namespace ExamenParcial.Controllers
         }
     }
 }
+

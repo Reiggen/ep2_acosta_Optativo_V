@@ -21,6 +21,7 @@ namespace Repository.Data
 
         public IDbConnection dbConnection()
         {
+
             try
             {
                 IDbConnection conexion = new NpgsqlConnection(connectionString);
@@ -29,7 +30,6 @@ namespace Repository.Data
             }
             catch (Exception ex)
             {
-
                 throw new NpgsqlException(ex.Message);
             }
         }
